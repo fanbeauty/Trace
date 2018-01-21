@@ -1,0 +1,83 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": false,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.5.3",
+	"appid": "wxdd752224f3423e18",
+	"projectname": "%E8%B7%AF%E8%BF%B9",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 8,
+			"list": [
+				{
+					"id": 0,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "add",
+					"pathName": "pages/add/add",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "visited",
+					"pathName": "pages/visited/visited",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "addTags",
+					"pathName": "pages/addTags/addTags",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "manageTags",
+					"pathName": "pages/manageTags/manageTags",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "newTags",
+					"pathName": "pages/newTags/newTags",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pic",
+					"pathName": "pages/addPic/addPic",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "show",
+					"pathName": "pages/show/show",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "search",
+					"pathName": "pages/search/search",
+					"query": ""
+				}
+			]
+		}
+	}
+}

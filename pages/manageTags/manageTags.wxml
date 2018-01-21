@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="listTags">
+  <block wx:for="{{tagsArr}}">
+    <view class="tag" bindtap='manageTag' data-tag="{{item}}">{{item}}</view>
+  </block>
+  </view>
+  <view class="newTags">
+    <button plain='{{true}}' bindtap='createTag' >创建标签</button>
+  </view>
+  <view class="bottomLeft"></view>
+  <view class="bottomRight"></view>
+</view>

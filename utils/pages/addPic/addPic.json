@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#f8c3cd",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "添加照片",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false
+}

@@ -1,0 +1,65 @@
+<view class="container">
+  <view class="pic-wrapper">
+    <view class="picAndname">
+      <image src="https://www.huany.top/LuJi/luji.jpg"></image>
+      <text class="name">{{name}}</text>
+    </view>
+    <view class="bg">
+    </view>
+  </view>
+  <view class="conten-wrapper">
+    <view class="content">
+      <view class="address">
+        <image src="../../images/location.png" mode='widthFix'></image>
+        <view>{{address}}</view>
+      </view>
+      <view class="tag">
+        <image src="../../images/tag.png"></image>
+        <view class="tagText">
+          <block wx:if="{{tags.length!==0}}">
+            <block wx:for="{{tags}}">
+              <view class="tagItem">{{item}}</view>
+            </block>
+          </block>
+          <block wx:else>请选择路迹标签</block>
+        </view>
+        <view class="direction" bindtap="selectTags">
+          <image src="../../images/blackright.png" mode="widthFix"></image>
+        </view>
+      </view>
+      <view class="viewOrNotView">
+        <radio-group class="radio-group" bindchange="radioChange">
+          <view class="radio" wx:for="{{items}}">
+            {{item.value}}
+            <radio value="{{item.name}}" checked="{{item.checked}}" />
+          </view>
+        </radio-group>
+      </view>
+      <view class="youji">
+        <image src="../../images/write.png" mode="widthFix"></image>
+        <input type='text' placeholder='写点游记......'></input>
+      </view>
+      <view class="dateAndtime">
+        <image src="../../images/time.png" mode='widthFix'></image>
+        <text class="time">{{dateTime}}</text>
+      </view>
+      <view class="addPhoto">
+        <image class="default" src="../../images/pic.png" mode='widthFix'></image>
+        <view class="uploadImages" wx:if="{{picArr.length!==0}}">
+          <block wx:for="{{picArr}}">
+            <view class="uploadImage">
+              <image src="{{item.tempFilePath}}" mode="aspectFill" bindtap="previewImage" data-tempfilepath="{{item.tempFilePath[0]}}"></image>
+            </view>
+          </block>
+        </view>
+        <text class="add" wx:else>去添加几张照片吧</text>
+        <view class="direction" bindtap="uploadImage">
+          <image src="../../images/blackright.png" mode="widthFix"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="submit">
+    <button plain="{{true}}" bindtap='saveScenery'>保存</button>
+  </view>
+</view>

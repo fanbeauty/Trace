@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#f8c3cd",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "风景",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false
+}

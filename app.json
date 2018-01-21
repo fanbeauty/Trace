@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/add/add",
+    "pages/visited/visited",
+    "pages/addTags/addTags",
+    "pages/manageTags/manageTags",
+    "pages/newTags/newTags",
+    "pages/addPic/addPic",
+    "pages/show/show",
+    "pages/search/search"
+  ]
+}

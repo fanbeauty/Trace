@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="photo">
+    <view class="add">
+      <block wx:for="{{picArr}}">
+        <view class="one">
+          <image class="uploadImage" src="{{item.tempFilePath}}" mode="aspectFill" bindtap="uploadImage" wx:if="{{item.hasUpload}}"></image>
+          <image class="defaultImage" src="../../images/upload.png" mode="widthFix" bindtap="uploadImage" wx:else></image>
+        </view>
+      </block>
+    </view>
+    <view class="leftTop"></view>
+  </view>
+  <view class="save" bindtap="backToAdd">
+    <button plain="true">保存</button>
+  </view>
+</view>

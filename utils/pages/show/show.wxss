@@ -1,0 +1,158 @@
+page {
+}
+
+.container {
+  background: #fff;
+  position: relative;
+  margin: 20px auto;
+  width: 300px;
+  height: 600px;
+  padding: 5px 20px;
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.container .scenery {
+  width: 80px;
+  height: 80px;
+  margin: 0px auto;
+}
+
+.container .scenery image {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+.modify {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #e5e5e5;
+}
+
+.modify image {
+  width: 24px;
+  height: 24px;
+  margin: 3px;
+}
+
+.container .address {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.timeAndPinjia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 0px 10px;
+}
+
+.timeAndPinjia .time, .pinjia {
+  height: 30px;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.timeAndPinjia .time image {
+  vertical-align: top;
+  height: 24px;
+  width: 24px;
+  margin: 3px 5px 3px 0;
+}
+
+.location, .tags, .travellog {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  margin: 5px 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.mylocation {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: #e5e5e5;
+  margin: 3px 5px 3px 0px;
+}
+
+.mylocation image {
+  width: 18px;
+  height: 18px;
+  margin: 3px;
+  opacity: 0.5;
+}
+
+.location text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.tags image {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 3px 5px 3px 0px;
+}
+
+.tags text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.travellog image {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 3px 5px 3px 0px;
+}
+
+.travellog text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.glay {
+  display: block;
+  width: 276px;
+  height: 276px;
+  margin: 20px auto;
+  box-shadow: 0px 2px 5px #e5e5e5;
+}
+
+.glay .glay-item {
+  display: block;
+  float: left;
+  width: 90px;
+  height: 90px;
+  margin: 1px;
+}
+
+.glay .glay-item image {
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+}

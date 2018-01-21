@@ -1,0 +1,14 @@
+<view class="container">
+  <form bindsubmit="formSave" bindreset='formDelete'>
+    <view class="newTgas">
+      <text>标签名称</text>
+      <input type='text' focus="{{true}}" bindblur="getUserInput" name='tag' confirm-type='done' value='{{selectedTag}}' placeholder='{{selectedTag}}' wx:if="{{selectedTag}}"></input>
+      <input type='text' focus="{{true}}" bindblur="getUserInput" name='tag' confirm-type='done' placeholder='请输入新建的标签名称...' wx:else></input>
+    </view>
+    <view class="saveOrdelete">
+      <button plain='{{true}}' class="save" form-type='submit'>保存</button>
+      <button plain='{{true}}' class="delete" bindtap="deleteTag" data-tag="{{inputValue}}" wx:if="{{flag!==1}}">删除</button>
+    </view>
+  </form>
+  <view class="tiezhi"></view>
+</view>

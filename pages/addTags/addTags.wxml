@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="tags">
+    <block wx:for="{{tagsObj}}">
+      <view class="tag" bindtap="selectedTag" data-tag="{{item.tagName}}" style="{{selectedStyle}}" wx:if="{{item.selected}}">{{item.tagName}}</view>
+      <view class="tag" bindtap="selectedTag" data-tag="{{item.tagName}}" wx:else>{{item.tagName}}</view>
+    </block>
+  </view>
+  <view class="manageTags" bindtap="manageTags"><text>管理标签</text></view>
+  <view class="save">
+    <button plain="true" bindtap="saveTags">保存</button>
+  </view>
+</view>

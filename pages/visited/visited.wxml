@@ -1,0 +1,83 @@
+<view class="container">
+  <view class="search">
+    <input type='text' confirm-type='search' placeholder='搜索' placeholder-style='text-align:center'></input>
+  </view>
+  <view class="content">
+    <view class="item">
+      <view class="left">
+        <view class="placeImage">
+          <image src="../../images/1.jpg" mode='aspectFill'></image>
+        </view>
+        <text class="visitedOrNot">已看过</text>
+      </view>
+      <view class="right" bindtap='showDetail'>
+        <view class="location">
+          <view class="address">黄梅县蔡山镇王三墩村6组</view>
+          <image src="../../images/right.png"></image>
+        </view>
+        <view class="tagAndDistance">
+          <view class="tags">
+            <block>
+              <text class="tag">烟雨江南</text>
+              <text class="tag">柳絮</text>
+              <text class="tag">阳光正好</text>
+              <text class="tag">阳光正好</text>
+            </block>
+          </view>
+          <text class="distance">52000km</text>
+        </view>
+      </view>
+    </view>
+    <view class="item">
+      <view class="left">
+        <view class="placeImage">
+          <image src="../../images/1.jpg" mode='aspectFill'></image>
+        </view>
+        <text class="visitedOrNot">已看过</text>
+      </view>
+      <view class="right">
+        <view class="location">
+          <view class="address">黄梅县蔡山镇王三墩村6组</view>
+          <image src="../../images/right.png"></image>
+        </view>
+        <view class="tagAndDistance">
+          <view class="tags">
+            <block>
+              <text class="tag">烟雨江南</text>
+              <text class="tag">柳絮</text>
+              <text class="tag">阳光正好</text>
+              <text class="tag">阳光正好</text>
+            </block>
+          </view>
+          <text class="distance">52000km</text>
+        </view>
+      </view>
+    </view>
+    <view class="item">
+      <view class="left">
+        <view class="placeImage">
+          <image src="../../images/1.jpg" mode='aspectFill'></image>
+        </view>
+        <text class="visitedOrNot">已看过</text>
+      </view>
+      <view class="right">
+        <view class="location">
+          <view class="address">黄梅县蔡山镇王三墩村6组</view>
+          <image src="../../images/right.png"></image>
+        </view>
+        <view class="tagAndDistance">
+          <view class="tags">
+            <block>
+              <text class="tag">烟雨江南</text>
+              <text class="tag">柳絮</text>
+              <text class="tag">阳光正好</text>
+              <text class="tag">阳光正好</text>
+            </block>
+          </view>
+          <text class="distance">52000km</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>
